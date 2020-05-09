@@ -1,11 +1,17 @@
 const express = require('express')
 const connectDB = require('./config/db')
 
-const app = express()
-// connect database 
 
+const app = express()
+
+
+// connect database 
 connectDB()
 
+// Init Middleware 
+// we used to install the body parser as separate package and bring it in and then initilize it
+// but now it just include in express =>   app.use(BodyParser.json()) old method 
+app.use(express.json({extended : false}))
 
 app.get('/', (req, res)=> res.send('API Running'))
 

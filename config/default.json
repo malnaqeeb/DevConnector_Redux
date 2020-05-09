@@ -1,3 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://malnaqeeb:mosleh13579@cluster0-vsfej.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://malnaqeeb:mosleh13579@cluster0-vsfej.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "githubClientId":"846059c5fbf526e78b3d",
+    "githubSecret":"2b6d2870a22d65cd06ee96acbfb904bf16a79c69"
 }
