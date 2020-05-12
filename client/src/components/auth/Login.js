@@ -47,7 +47,7 @@ const Login = ({ login, isAuthenticated }) => {
             value={password}
             onChange={(e) => onChange(e)}
             minLength="6"
-            autocomplete="on"
+            autoComplete="on"
           />
         </div>
         <input type="submit" className="btn btn-primary" value="Login" />
